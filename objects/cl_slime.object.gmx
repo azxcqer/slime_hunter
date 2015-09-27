@@ -56,9 +56,9 @@ event_inherited()
 
 if hsp!=0
 {
-sprite_index = run_sprite;
+sprite_index = sprite_run;
 image_speed = 0.10;
-} else {sprite_index=de_sprite; image_speed=0;}
+} else {sprite_index=sprite_def; image_speed=0;}
 
 </string>
           </argument>

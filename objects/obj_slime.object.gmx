@@ -29,7 +29,7 @@
 event_inherited()
 
 
-run_sprite=sp_slime_run
+sprite_run=sp_slime_run
 </string>
           </argument>
         </arguments>

@@ -151,11 +151,11 @@ if !landed
 
 //key respnsive up and down animations
 if keyboard_check(vk_up)
-    {sprite_index=up_sprite}
+    {sprite_index=sprite_up}
 if keyboard_check(vk_down)
-    {sprite_index=do_sprite}
+    {sprite_index=sprite_down}
 if keyboard_check(vk_up) &amp;&amp; keyboard_check(vk_down) || !keyboard_check(vk_up) &amp;&amp; !keyboard_check(vk_down)
-    {sprite_index=de_sprite}
+    {sprite_index=sprite_def}
 </string>
           </argument>
         </arguments>

@@ -30,10 +30,10 @@
 doesitwalk=false
 image_speed=0
 
-run_sprite = sprite_index
-de_sprite= sprite_index
-up_sprite= sprite_index
-do_sprite= sprite_index
+sprite_def= sprite_index
+sprite_up= sprite_index
+sprite_down= sprite_index
+sprite_run = sprite_index
 </string>
           </argument>
         </arguments>

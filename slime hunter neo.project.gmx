@@ -8,7 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\sp_bug</sprite>
     <sprites name="player">
-      <sprite>sprites\sp_playerdef</sprite>
+      <sprite>sprites\sp_player</sprite>
       <sprite>sprites\sp_player_down</sprite>
       <sprite>sprites\sp_player_up</sprite>
     </sprites>
@@ -23,7 +23,9 @@
       <sprite>sprites\sp_slime</sprite>
       <sprite>sprites\sp_slime_run</sprite>
       <sprite>sprites\sp_slime_boss</sprite>
+      <sprite>sprites\sp_slime_boss_run</sprite>
       <sprite>sprites\sp_runner_slime</sprite>
+      <sprite>sprites\sp_runner_slime_run</sprite>
     </sprites>
     <sprite>sprites\sp_portal</sprite>
     <sprite>sprites\sp_lava</sprite>
