@@ -1,4 +1,4 @@
-# slime_hunter
+# Slime Hunter
 
 This is my very first game. I'll be developing it and releasing weekly builds. 
 
