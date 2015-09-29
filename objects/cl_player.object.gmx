@@ -89,12 +89,15 @@ do_sprite=noone
 event_inherited()
 
 //Get the player's input
-key_right = keyboard_check(vk_right);
-key_left = -keyboard_check(vk_left);
-key_jump = keyboard_check(vk_space);
-
+if !global.cutscene //locking controllers out of custcenes
+{
+    key_right = keyboard_check(vk_right);
+    key_left = -keyboard_check(vk_left);
+    key_jump = keyboard_check(vk_space);
 //React to inputs
-dir = key_left + key_right;
+    dir = key_left + key_right;
+}
+
 hsp = dir * movespeed;
  
 if landed

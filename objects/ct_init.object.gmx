@@ -32,6 +32,7 @@ global.w1count = 7 //number of rooms in the w1, used to set some arrays and stuf
 global.w1clear = false
 global.lastroom = room
 global.exitvsp = 0
+global.cutscene = false
 
 //bouncy variables
 global.bpDefault = 0.5
