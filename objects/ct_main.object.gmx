@@ -78,10 +78,9 @@ if !background_visible[0] background_visible[0] = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//if the world is clear, kill the slimes
-
+            <string>///world clearer
+//if you're on a stage that belongs to the world  and it is clear, kill the slimes and up the bounce power of the pads
 var o
-
 for (o=global.w1count; o!=0; o--)
 {
     if global.w1stages[o]==room &amp;&amp; global.w1clear
@@ -90,8 +89,27 @@ for (o=global.w1count; o!=0; o--)
      global.bp = global.bpClear
     }
 }
-
-//restart
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///restart if dead
 if !instance_exists(cl_player)
     {
     //alarm[0]=room_speed*3
