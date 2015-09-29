@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>138</xoffset>
-    <yoffset>514</yoffset>
+    <xoffset>320</xoffset>
+    <yoffset>645</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -93,7 +93,7 @@
     <instance objName="obj_wall" x="54" y="144" name="inst_AF7A11D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bouncy" x="102" y="162" name="inst_EFAC3277" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="126" y="162" name="inst_B809E67D" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="132" y="162" name="inst_2364CE12" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="132" y="168" name="inst_2364CE12" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="150" y="162" name="inst_3F85A579" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="96" y="150" name="inst_31165ECD" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_green_gate" x="138" y="168" name="inst_A5206BD9" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
