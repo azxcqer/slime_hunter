@@ -20,12 +20,24 @@
       <sprite>sprites\spr_bouncy</sprite>
     </sprites>
     <sprites name="Enemies">
-      <sprite>sprites\sp_slime</sprite>
-      <sprite>sprites\sp_slime_run</sprite>
-      <sprite>sprites\sp_slime_boss</sprite>
-      <sprite>sprites\sp_slime_boss_run</sprite>
-      <sprite>sprites\sp_runner_slime</sprite>
-      <sprite>sprites\sp_runner_slime_run</sprite>
+      <sprites name="Bosses">
+        <sprites name="boss1">
+          <sprite>sprites\sp_slime_boss</sprite>
+          <sprite>sprites\sp_slime_boss_run</sprite>
+        </sprites>
+      </sprites>
+      <sprites name="Slime">
+        <sprite>sprites\sp_slime</sprite>
+        <sprite>sprites\sp_slime_run</sprite>
+      </sprites>
+      <sprites name="Runner Slime">
+        <sprite>sprites\sp_runner_slime_run</sprite>
+        <sprite>sprites\sp_runner_slime</sprite>
+      </sprites>
+      <sprites name="Jumper Slime">
+        <sprite>sprites\sp_jumper_slime</sprite>
+        <sprite>sprites\sp_jumper_slime_run</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\sp_portal</sprite>
     <sprite>sprites\sp_lava</sprite>
@@ -60,6 +72,7 @@
       <object>objects\obj_slime</object>
       <object>objects\obj_green_boss</object>
       <object>objects\obj_slime_runner</object>
+      <object>objects\obj_slime_jumper</object>
     </objects>
     <objects name="Player">
       <object>objects\cl_player</object>
@@ -91,6 +104,7 @@
     <object>objects\obj_w1_check</object>
     <object>objects\obj_w1clear_debug</object>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\room_splash</room>
     <rooms name="w1">
