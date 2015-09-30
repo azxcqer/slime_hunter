@@ -6,6 +6,10 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="bg">
+      <sprite>sprites\sp_sign_danger</sprite>
+      <sprite>sprites\sp_sign_shadow</sprite>
+    </sprites>
     <sprite>sprites\sp_bug</sprite>
     <sprites name="player">
       <sprite>sprites\sp_player</sprite>
@@ -103,8 +107,12 @@
     <object>objects\cl_checker</object>
     <object>objects\obj_w1_check</object>
     <object>objects\obj_w1clear_debug</object>
+    <objects name="Background Props">
+      <object>objects\cl_bg</object>
+      <object>objects\obj_sign_danger</object>
+      <object>objects\obj_sign_shadow</object>
+    </objects>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\room_splash</room>
     <rooms name="w1">
