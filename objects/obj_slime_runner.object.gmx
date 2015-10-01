@@ -115,7 +115,7 @@ event_inherited()
 sightposX = x + (sight*dir)
 sightposY = y - (sprite_height/2)
 
-var wallthere, playerthere, slimethere, playerisalive
+var wallthere, playerthere, slimethere, playerisalive, slimethere
 
 //does the player existis
 playerisalive = instance_exists(cl_player)
@@ -124,6 +124,7 @@ if playerisalive
 {
     //is there a wall between me and the player?
     wallthere = collision_line(x, y, cl_player.x, cl_player.y, cl_wall, false, true)
+    &amp;&amp; collision_line(x, y, cl_player.x, cl_player.y, cl_slime, false, true)
     //the player is on my sight?
     playerthere = instance_exists(cl_player) &amp;&amp; collision_line(x, y, sightposX, sightposY, cl_player, false, true)
 
@@ -131,7 +132,9 @@ if playerisalive
     //} else {playerthere = false}
     
     //is there a slime coming my way?
+    
     slimethere = place_meeting(x,y,obj_slime_runner)
+    //slimethere = instance_exists(cl_slime) &amp;&amp; collision_line(x, y, sightposX, sightposY, cl_slime, false, true)
     
     //instance_exists(obj_slime_runner) 
     //&amp;&amp; collision_line(x, y, sightposX, sightposY, obj_slime_runner, false, true)
