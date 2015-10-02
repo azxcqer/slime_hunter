@@ -88,6 +88,7 @@
       <object>objects\cl_wall</object>
       <object>objects\cl_bounce</object>
       <object>objects\obj_wall</object>
+      <object>objects\obj_fake_wall</object>
       <object>objects\obj_bouncy</object>
     </objects>
     <objects name="gates">
