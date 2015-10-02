@@ -151,7 +151,6 @@ if keyboard_check_pressed(ord("R")) {room_restart()}
 //debugging
 if keyboard_check_pressed(ord("T")) {global.debugger = !global.debugger}
 //fullscreen
-/*
 if keyboard_check_pressed(ord("F")) 
 {
     if window_get_fullscreen()
@@ -162,7 +161,7 @@ if keyboard_check_pressed(ord("F"))
     {
        window_set_fullscreen(true);
     }
-}*/
+}
 //pause
 if keyboard_check_pressed(ord("P")) {global.paused = !global.paused}
 </string>
@@ -216,6 +215,32 @@ if global.debugger
       </action>
     </event>
     <event eventtype="8" enumb="64">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///gui size
+/*
+originalX=0
+orignalY=0
+*/
+display_set_gui_size(window_get_width(), window_get_height())
+</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -304,6 +329,31 @@ if ded
 if global.debugger
 {
     draw_text_shadow(window_get_width()/2,0,"Debugging on",c_white,c_black,1,fa_center,fa_top)
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///paused text
+
+if global.paused
+{
 }
 </string>
           </argument>
