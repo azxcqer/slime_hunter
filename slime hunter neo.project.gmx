@@ -23,6 +23,7 @@
       <sprite>sprites\spr_purple_gate</sprite>
       <sprite>sprites\sp_world_gate</sprite>
       <sprite>sprites\spr_bouncy</sprite>
+      <sprite>sprites\sp_glass</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprites name="Bosses">
@@ -86,11 +87,13 @@
       <object>objects\player</object>
     </objects>
     <objects name="Walls and Solids">
+      <object>objects\cl_solid</object>
       <object>objects\cl_wall</object>
       <object>objects\cl_bounce</object>
       <object>objects\obj_wall</object>
       <object>objects\obj_fake_wall</object>
       <object>objects\obj_bouncy</object>
+      <object>objects\obj_glass</object>
     </objects>
     <objects name="gates">
       <object>objects\cl_gate</object>

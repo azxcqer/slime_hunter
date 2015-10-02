@@ -58,21 +58,21 @@ landed=false
             <string>///collision
 
 //are you landed?
-//if vsp==0 &amp;&amp; place_meeting(x,y+1,cl_wall)
+//if vsp==0 &amp;&amp; place_meeting(x,y+1,cl_solid)
 //    {
 //    landed=true
 //    }
 //else landed=false
-landed=place_meeting(x,y+1,cl_wall) &amp;&amp; vsp==0
+landed=place_meeting(x,y+1,cl_solid) &amp;&amp; vsp==0
 if !global.paused
 {
 // vertical speed
 vsp+=grav
 
 //Horizontal Collision
-if (place_meeting(x+hsp,y,cl_wall))
+if (place_meeting(x+hsp,y,cl_solid))
 {
-    while(!place_meeting(x+sign(hsp),y,cl_wall))
+    while(!place_meeting(x+sign(hsp),y,cl_solid))
     {
         x += sign(hsp);
     }
@@ -91,9 +91,9 @@ if landed==false
     }
 
 //Vertical Collision
-if (place_meeting(x,y+vsp,cl_wall))
+if (place_meeting(x,y+vsp,cl_solid))
 {
-    while(!place_meeting(x,y+sign(vsp),cl_wall))
+    while(!place_meeting(x,y+sign(vsp),cl_solid))
     {
         y += sign(vsp);
     }
