@@ -64,7 +64,8 @@ landed=false
 //    }
 //else landed=false
 landed=place_meeting(x,y+1,cl_wall) &amp;&amp; vsp==0
-
+if !global.paused
+{
 // vertical speed
 vsp+=grav
 
@@ -100,6 +101,7 @@ if (place_meeting(x,y+vsp,cl_wall))
 }
 
     {y = round(y) + round(vsp);}
+} else { x=x;y=y}
 
 if place_meeting(x,y,cl_lava)
 {

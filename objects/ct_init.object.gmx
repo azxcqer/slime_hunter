@@ -33,6 +33,7 @@ global.w1clear = false
 global.lastroom = room
 global.exitvsp = 0
 global.cutscene = false
+global.paused = false
 
 //bouncy variables
 global.bpDefault = 0.5

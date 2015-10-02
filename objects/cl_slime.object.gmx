@@ -54,11 +54,11 @@ movespeed=0.6
 
 event_inherited()
 
-if hsp!=0
+if hsp!=0 &amp;&amp; !global.paused
 {
 sprite_index = sprite_run;
 image_speed = 0.10;
-} else {sprite_index=sprite_def; image_speed=0;}
+} else {sprite_index=sprite_def; image_speed=0 image_index=0;}
 
 </string>
           </argument>

@@ -88,13 +88,15 @@ do_sprite=noone
 
 event_inherited()
 
-//Get the player's input
-if !global.cutscene //locking controllers out of custcenes
+
+//locking controllers out of custcenes and pause
+if !global.cutscene &amp;&amp; !global.paused 
 {
+    //Get the player's input
     key_right = keyboard_check(vk_right);
     key_left = -keyboard_check(vk_left);
     key_jump = keyboard_check(vk_space);
-//React to inputs
+    //React to inputs
     dir = key_left + key_right;
 }
 
@@ -153,12 +155,15 @@ if !landed
 
 
 //key respnsive up and down animations
-if keyboard_check(vk_up)
-    {sprite_index=sprite_up}
-if keyboard_check(vk_down)
-    {sprite_index=sprite_down}
-if keyboard_check(vk_up) &amp;&amp; keyboard_check(vk_down) || !keyboard_check(vk_up) &amp;&amp; !keyboard_check(vk_down)
-    {sprite_index=sprite_def}
+if !global.paused
+{
+    if keyboard_check(vk_up)
+        {sprite_index=sprite_up}
+    if keyboard_check(vk_down)
+        {sprite_index=sprite_down}
+    if keyboard_check(vk_up) &amp;&amp; keyboard_check(vk_down) || !keyboard_check(vk_up) &amp;&amp; !keyboard_check(vk_down)
+        {sprite_index=sprite_def}
+}
 </string>
           </argument>
         </arguments>

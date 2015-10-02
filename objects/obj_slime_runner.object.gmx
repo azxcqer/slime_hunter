@@ -131,8 +131,7 @@ if playerisalive
     //if instance_exists(cl_player){playerthere = collision_line(x, y, sightposX, sightposY, cl_player, false, true)
     //} else {playerthere = false}
     
-    //is there a slime coming my way?
-    
+    //is there a slime coming my way?    
     slimethere = place_meeting(x,y,obj_slime_runner)
     //slimethere = instance_exists(cl_slime) &amp;&amp; collision_line(x, y, sightposX, sightposY, cl_slime, false, true)
     
