@@ -18,6 +18,7 @@
     </sprites>
     <sprites name="solids">
       <sprite>sprites\sp_tl_test</sprite>
+      <sprite>sprites\sp_fake_wall</sprite>
       <sprite>sprites\sp_green_gate</sprite>
       <sprite>sprites\spr_purple_gate</sprite>
       <sprite>sprites\sp_world_gate</sprite>
