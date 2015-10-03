@@ -6,24 +6,25 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="bg">
+    <sprites name="Background">
       <sprite>sprites\sp_sign_danger</sprite>
       <sprite>sprites\sp_sign_shadow</sprite>
     </sprites>
-    <sprite>sprites\sp_bug</sprite>
-    <sprites name="player">
+    <sprites name="Player">
       <sprite>sprites\sp_player</sprite>
       <sprite>sprites\sp_player_down</sprite>
       <sprite>sprites\sp_player_up</sprite>
     </sprites>
-    <sprites name="solids">
+    <sprites name="Walls and solids">
       <sprite>sprites\sp_tl_test</sprite>
       <sprite>sprites\sp_fake_wall</sprite>
-      <sprite>sprites\sp_green_gate</sprite>
-      <sprite>sprites\spr_purple_gate</sprite>
-      <sprite>sprites\sp_world_gate</sprite>
       <sprite>sprites\spr_bouncy</sprite>
       <sprite>sprites\sp_glass</sprite>
+      <sprites name="Gates">
+        <sprite>sprites\sp_world_gate</sprite>
+        <sprite>sprites\sp_green_gate</sprite>
+        <sprite>sprites\spr_purple_gate</sprite>
+      </sprites>
     </sprites>
     <sprites name="Enemies">
       <sprites name="Bosses">
@@ -45,10 +46,13 @@
         <sprite>sprites\sp_jumper_slime_run</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\sp_portal</sprite>
+    <sprites name="Tools">
+      <sprite>sprites\sp_portal</sprite>
+      <sprite>sprites\sp_checker</sprite>
+      <sprite>sprites\sp_spawn</sprite>
+      <sprite>sprites\sp_bug</sprite>
+    </sprites>
     <sprite>sprites\sp_lava</sprite>
-    <sprite>sprites\sp_spawn</sprite>
-    <sprite>sprites\sp_checker</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
@@ -67,12 +71,12 @@
       <object>objects\ct_main</object>
       <object>objects\ct_init</object>
     </objects>
-    <objects name="old stuff">
+    <objects name="Old tests">
       <object>objects\obj_e_test_suicide</object>
       <object>objects\obj_e_test_default</object>
       <object>objects\obj_sprite_test_player</object>
     </objects>
-    <objects name="enemies">
+    <objects name="Enemies">
       <object>objects\cl_enemy</object>
       <object>objects\cl_slime</object>
       <object>objects\obj_slime</object>
@@ -94,24 +98,24 @@
       <object>objects\obj_fake_wall</object>
       <object>objects\obj_bouncy</object>
       <object>objects\obj_glass</object>
-    </objects>
-    <objects name="gates">
-      <object>objects\cl_gate</object>
-      <object>objects\cl_world_gate</object>
-      <object>objects\obj_puple_gate</object>
-      <object>objects\obj_world_gate</object>
-      <object>objects\obj_green_gate</object>
+      <objects name="gates">
+        <object>objects\cl_gate</object>
+        <object>objects\cl_world_gate</object>
+        <object>objects\obj_puple_gate</object>
+        <object>objects\obj_world_gate</object>
+        <object>objects\obj_green_gate</object>
+      </objects>
     </objects>
     <object>objects\cl_lava</object>
     <objects name="tools and etc">
       <object>objects\obj_portal_w1_out</object>
       <object>objects\obj_portal_w1_in</object>
       <object>objects\obj_portal</object>
+      <object>objects\cl_checker</object>
+      <object>objects\obj_w1_check</object>
+      <object>objects\obj_w1clear_debug</object>
       <object>objects\obj_spawn</object>
     </objects>
-    <object>objects\cl_checker</object>
-    <object>objects\obj_w1_check</object>
-    <object>objects\obj_w1clear_debug</object>
     <objects name="Background Props">
       <object>objects\cl_bg</object>
       <object>objects\obj_sign_danger</object>
