@@ -71,6 +71,7 @@
   <scripts name="scripts">
     <script>scripts\draw_text_shadow.gml</script>
     <script>scripts\draw_me_colored.gml</script>
+    <script>scripts\who_am_i.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Classes">
@@ -156,6 +157,10 @@
       <room>rooms\old_w1_5</room>
     </rooms>
   </rooms>
+  <constants number="2">
+    <constant name="p_d">1</constant>
+    <constant name="p_e">2</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>

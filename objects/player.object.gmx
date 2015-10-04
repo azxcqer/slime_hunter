@@ -27,11 +27,6 @@
             <kind>1</kind>
             <string>///assign the sprites for animation purpose
 event_inherited()
-
-de_sprite=sp_player
-up_sprite=sp_player_up
-do_sprite=sp_player_down
-
 sprite_def= sp_player
 sprite_up= sp_player_up
 sprite_down= sp_player_down

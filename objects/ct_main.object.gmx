@@ -164,6 +164,15 @@ if keyboard_check_pressed(ord("F"))
 }
 //pause
 if keyboard_check_pressed(ord("P")) {global.paused = !global.paused}
+//swap character
+if keyboard_check_pressed(ord("X"))
+    {
+    if global.playerid = p_d
+        {
+        global.playerid = p_e;
+        global.otherid = p_d;
+        } else { global.playerid = p_d; global.otherid = p_e;}
+    }
 </string>
           </argument>
         </arguments>

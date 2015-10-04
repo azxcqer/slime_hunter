@@ -32,13 +32,6 @@ dir=1
 origin=noone //var to set the room I came from
 
 if !landed vsp=global.exitvsp
-
-
-/*
-de_sprite=noone
-up_sprite=noone
-do_sprite=noone
-
 </string>
           </argument>
         </arguments>
@@ -164,6 +157,29 @@ if !global.paused
     if keyboard_check(vk_up) &amp;&amp; keyboard_check(vk_down) || !keyboard_check(vk_up) &amp;&amp; !keyboard_check(vk_down)
         {sprite_index=sprite_def}
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///changing the player sprites
+
+who_am_i()
 </string>
           </argument>
         </arguments>

@@ -34,6 +34,8 @@ global.lastroom = room
 global.exitvsp = 0
 global.cutscene = false
 global.paused = false
+global.playerid = p_d
+global.otherid = p_e
 
 //bouncy variables
 global.bpDefault = 0.5
