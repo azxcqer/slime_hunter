@@ -10,10 +10,20 @@
       <sprite>sprites\sp_sign_danger</sprite>
       <sprite>sprites\sp_sign_shadow</sprite>
     </sprites>
-    <sprites name="Player">
+    <sprites name="Players">
       <sprite>sprites\sp_player</sprite>
-      <sprite>sprites\sp_player_down</sprite>
       <sprite>sprites\sp_player_up</sprite>
+      <sprite>sprites\sp_player_down</sprite>
+      <sprites name="p1">
+        <sprite>sprites\sp_p1</sprite>
+        <sprite>sprites\sp_p1_up</sprite>
+        <sprite>sprites\sp_p1_down</sprite>
+      </sprites>
+      <sprites name="p2">
+        <sprite>sprites\sp_p2</sprite>
+        <sprite>sprites\sp_p2_up</sprite>
+        <sprite>sprites\sp_p2_down</sprite>
+      </sprites>
     </sprites>
     <sprites name="Walls and solids">
       <sprite>sprites\sp_tl_test</sprite>
