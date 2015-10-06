@@ -73,6 +73,10 @@
     <script>scripts\draw_text_shadow.gml</script>
     <script>scripts\draw_me_colored.gml</script>
     <script>scripts\who_am_i.gml</script>
+    <scripts name="collision">
+      <script>scripts\collision.gml</script>
+      <script>scripts\collision_init.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="Classes">
