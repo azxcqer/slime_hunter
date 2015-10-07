@@ -86,6 +86,7 @@ for (o=global.w1count; o!=0; o--)
     if global.w1stages[o]==room &amp;&amp; global.w1clear
     {
      with (cl_slime) {instance_destroy()};
+     with (obj_world_gate) {instance_destroy()};
      global.bp = global.bpClear
     }
 }
