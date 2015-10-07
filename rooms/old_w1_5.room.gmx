@@ -94,7 +94,7 @@
     <instance objName="obj_wall" x="222" y="102" name="inst_ED6349A5" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="192" y="96" name="inst_A9E404C3" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="186" y="12" name="inst_EC6C43F5" locked="0" code="" scaleX="1" scaleY="14" colour="4294967295" rotation="0"/>
-    <instance objName="obj_puple_gate" x="96" y="36" name="inst_B09285EC" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_purple_gate" x="96" y="36" name="inst_B09285EC" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_bouncy" x="96" y="132" name="inst_8FB09D63" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_green_gate" x="174" y="138" name="inst_067F8A52" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="ct_main" x="18" y="72" name="inst_B99E8D9D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

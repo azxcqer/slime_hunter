@@ -78,7 +78,7 @@ if !background_visible[0] background_visible[0] = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///world clearer
+            <string>///room cleaner
 //if you're on a stage that belongs to the world  and it is clear, kill the slimes and up the bounce power of the pads
 var o
 for (o=global.w1count; o!=0; o--)
@@ -90,6 +90,14 @@ for (o=global.w1count; o!=0; o--)
      global.bp = global.bpClear
     }
 }
+
+//if there is no more slime from said color, destroy it's colored gate
+//green
+if !instance_exists(obj_slime)
+{   with (obj_green_gate) instance_destroy() }
+//purple
+if !instance_exists(obj_slime_runner)
+{   with (obj_purple_gate) instance_destroy() }
 </string>
           </argument>
         </arguments>

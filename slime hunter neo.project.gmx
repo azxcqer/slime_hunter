@@ -117,7 +117,7 @@
       <objects name="gates">
         <object>objects\cl_gate</object>
         <object>objects\cl_world_gate</object>
-        <object>objects\obj_puple_gate</object>
+        <object>objects\obj_purple_gate</object>
         <object>objects\obj_world_gate</object>
         <object>objects\obj_green_gate</object>
       </objects>
@@ -148,17 +148,18 @@
       <room>rooms\w1_4</room>
       <room>rooms\w1_5</room>
       <room>rooms\w1_6</room>
-      <room>rooms\w1_7</room>
+      <room>rooms\w1_boss</room>
     </rooms>
     <room>rooms\the_end</room>
     <rooms name="w2">
-      <room>rooms\w2_x</room>
+      <room>rooms\w2_1</room>
     </rooms>
     <rooms name="test">
       <room>rooms\room0</room>
       <room>rooms\room1</room>
     </rooms>
     <rooms name="old_levels">
+      <room>rooms\w2_x</room>
       <room>rooms\old_w1_3</room>
       <room>rooms\old_w1_5</room>
     </rooms>
