@@ -153,6 +153,7 @@
     <room>rooms\the_end</room>
     <rooms name="w2">
       <room>rooms\w2_1</room>
+      <room>rooms\w2_boss</room>
     </rooms>
     <rooms name="test">
       <room>rooms\room0</room>
