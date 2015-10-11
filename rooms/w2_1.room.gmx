@@ -80,7 +80,7 @@
     <instance objName="ct_main" x="24" y="102" name="inst_1E3A0F61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="player" x="5" y="38" name="inst_446F34DF" locked="0" code="origin = w1_1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="54" y="78" name="inst_AAE6BFC1" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="obj_portal_w1_in" x="24" y="150" name="inst_683D57EB" locked="0" code="" scaleX="1.20000004768372" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_portal_w1_in" x="24" y="150" name="inst_683D57EB" locked="0" code="roomtogo=the_end&#xA;" scaleX="1.20000004768372" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="216" y="18" name="inst_B0A7CCE9" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_portal" x="204" y="24" name="inst_3B980578" locked="0" code="roomtogo = the_end&#xA;" scaleX="0.600000023841858" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="6" y="48" name="inst_B55A6DEB" locked="0" code="" scaleX="2" scaleY="5" colour="4294967295" rotation="0"/>
