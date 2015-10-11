@@ -1,4 +1,15 @@
 This is the changelog
+# v20151011
+## News
+* This version is heavily underworked because of a busy week and I was travelling! (thi is being commited from the damn hostel)
+* Shadow guards! (but then don't actually work like  iwant then to and they're not )
+* World 2_1 is playable but rather underwhelming
+* Lots of general organization and other little fixes that doen't really impact any of the gameplay.
+* Implesmented warping to the debugg controls (check the readme file)
+* I dont know what else!
+
+## Fixes
+* Glass block fixes (yes, they wasn't even in any stage and where borked).
 
 # v20151004
 ## News
