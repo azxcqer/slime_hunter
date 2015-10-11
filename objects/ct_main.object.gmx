@@ -225,7 +225,18 @@ if global.debugger
                 //oh boy, i'll need a lot more code to do what I want
             } else {if room_exists(room_next(room)){global.oldlastroom  = global.lastroom; global.lastroom = room; room_goto_next()}}
             */  
-        } 
+        }
+    // warping to world starts
+    if keyboard_check_pressed(vk_f1)
+        {
+        global.lastroom=global.w1start - 1;
+        room_goto(global.w1start);
+        }
+    if keyboard_check_pressed(vk_f2)
+        {
+        global.lastroom=global.w1start;
+        room_goto(global.w2start);
+        }
 }
 </string>
           </argument>

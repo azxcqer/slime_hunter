@@ -20,3 +20,5 @@ You can get more information and download the actual game here: http://ardy.itch
 * Z - Skip stage
 * K - Kill every slime
 * L - Toggle world 1 clear state
+* F1 - Warp to world 1 start
+* F2 - Warp to world 2 start
