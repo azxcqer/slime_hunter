@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>-235</xoffset>
-    <yoffset>37</yoffset>
+    <xoffset>2005</xoffset>
+    <yoffset>136</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -82,22 +82,24 @@
     <instance objName="obj_wall" x="438" y="18" name="inst_19F155C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="444" y="12" name="inst_BBC7B883" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_world_gate" x="510" y="18" name="inst_BEBD5EC9" locked="0" code="key = global.w1clear&#xA;" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="42" y="120" name="inst_B2335538" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="60" y="120" name="inst_B2335538" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="198" y="156" name="inst_BFD246CA" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="90" y="114" name="inst_66C7E8A1" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="102" y="114" name="inst_66C7E8A1" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="192" y="126" name="inst_1C431B16" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="186" y="108" name="inst_F28C050C" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="138" y="108" name="inst_947A650B" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="144" y="108" name="inst_947A650B" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="198" y="144" name="inst_5273C7B6" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="264" y="-6" name="inst_0B55DB0F" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="-6" y="126" name="inst_C7E4C0EC" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="-12" y="84" name="inst_400C25F2" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="-30" y="126" name="inst_C7E4C0EC" locked="0" code="" scaleX="15" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="-36" y="84" name="inst_400C25F2" locked="0" code="" scaleX="1" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="player" x="408" y="126" name="inst_6C6F432A" locked="0" code="origin=w1_2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_portal_w1_in" x="396" y="144" name="inst_EDB9B146" locked="0" code="" scaleX="1.20000004768372" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="558" y="12" name="inst_333D64E7" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
-    <instance objName="obj_portal" x="552" y="18" name="inst_8C87A58B" locked="0" code="roomtogo=the_end&#xA;" scaleX="1" scaleY="3.57142853736877" colour="4294967295" rotation="0"/>
+    <instance objName="obj_portal" x="552" y="18" name="inst_8C87A58B" locked="0" code="roomtogo=w2_1&#xA;" scaleX="1" scaleY="3.57142853736877" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="426" y="30" name="inst_EF4C4634" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign_shadow" x="245" y="73" name="inst_CA1ED8D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-13"/>
+    <instance objName="obj_shadow_guard" x="-17" y="116" name="inst_2F3A2F86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="player" x="534" y="38" name="inst_49988FBE" locked="0" code="origin=w2_1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -78,7 +78,7 @@ if !background_visible[0] background_visible[0] = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///world clearer
+            <string>///room cleaner
 //if you're on a stage that belongs to the world  and it is clear, kill the slimes and up the bounce power of the pads
 var o
 for (o=global.w1count; o!=0; o--)
@@ -86,9 +86,18 @@ for (o=global.w1count; o!=0; o--)
     if global.w1stages[o]==room &amp;&amp; global.w1clear
     {
      with (cl_slime) {instance_destroy()};
+     with (obj_world_gate) {instance_destroy()};
      global.bp = global.bpClear
     }
 }
+
+//if there is no more slime from said color, destroy it's colored gate
+//green
+if !instance_exists(obj_slime)
+{   with (obj_green_gate) instance_destroy() }
+//purple
+if !instance_exists(obj_slime_runner)
+{   with (obj_purple_gate) instance_destroy() }
 </string>
           </argument>
         </arguments>
@@ -216,7 +225,18 @@ if global.debugger
                 //oh boy, i'll need a lot more code to do what I want
             } else {if room_exists(room_next(room)){global.oldlastroom  = global.lastroom; global.lastroom = room; room_goto_next()}}
             */  
-        } 
+        }
+    // warping to world starts
+    if keyboard_check_pressed(vk_f1)
+        {
+        global.lastroom=global.w1start - 1;
+        room_goto(global.w1start);
+        }
+    if keyboard_check_pressed(vk_f2)
+        {
+        global.lastroom=global.w1start;
+        room_goto(global.w2start);
+        }
 }
 </string>
           </argument>

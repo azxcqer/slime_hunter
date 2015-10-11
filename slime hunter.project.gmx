@@ -63,6 +63,7 @@
       <sprite>sprites\sp_bug</sprite>
     </sprites>
     <sprite>sprites\sp_lava</sprite>
+    <sprite>sprites\sp_shadow_guard</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_temp</background>
@@ -72,6 +73,10 @@
     <script>scripts\draw_text_shadow.gml</script>
     <script>scripts\draw_me_colored.gml</script>
     <script>scripts\who_am_i.gml</script>
+    <scripts name="collision">
+      <script>scripts\collision.gml</script>
+      <script>scripts\collision_init.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="Classes">
@@ -112,7 +117,7 @@
       <objects name="gates">
         <object>objects\cl_gate</object>
         <object>objects\cl_world_gate</object>
-        <object>objects\obj_puple_gate</object>
+        <object>objects\obj_purple_gate</object>
         <object>objects\obj_world_gate</object>
         <object>objects\obj_green_gate</object>
       </objects>
@@ -132,6 +137,7 @@
       <object>objects\obj_sign_danger</object>
       <object>objects\obj_sign_shadow</object>
     </objects>
+    <object>objects\obj_shadow_guard</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_splash</room>
@@ -142,17 +148,19 @@
       <room>rooms\w1_4</room>
       <room>rooms\w1_5</room>
       <room>rooms\w1_6</room>
-      <room>rooms\w1_7</room>
+      <room>rooms\w1_boss</room>
+    </rooms>
+    <rooms name="w2">
+      <room>rooms\w2_1</room>
+      <room>rooms\w2_boss</room>
     </rooms>
     <room>rooms\the_end</room>
-    <rooms name="w2">
-      <room>rooms\w2_x</room>
-    </rooms>
     <rooms name="test">
       <room>rooms\room0</room>
       <room>rooms\room1</room>
     </rooms>
     <rooms name="old_levels">
+      <room>rooms\w2_x</room>
       <room>rooms\old_w1_3</room>
       <room>rooms\old_w1_5</room>
     </rooms>

@@ -25,15 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///initial variables
-
+            <string>///general variables
 global.debugger = false
-global.w1count = 7 //number of rooms in the w1, used to set some arrays and stuff around
-global.w1clear = false
 global.lastroom = room
 global.exitvsp = 0
 global.cutscene = false
 global.paused = false
+
+//player and partner identification
 global.playerid = p_d
 global.otherid = p_e
 
@@ -42,6 +41,15 @@ global.bpDefault = 0.5
 global.bpClear = 3
 global.bp = global.bpDefault
 
+//worlds variables
+global.w1start = w1_1
+global.w1end = w1_boss
+global.w1count = global.w1end - global.w1start + 1
+global.w2start = w2_1
+global.w2end = w2_boss
+global.w2count = global.w2end - global.w2start + 1
+
+global.w1clear = false
 
 //array of levels i don't know what i'm doing exactly
 
