@@ -51,3 +51,12 @@ var tY = argument1;
 var text = argument2;
 
 draw_text_shadow(tX, tY, text, c_white, c_black,1,fa_center,fa_middle)
+#define draw_text_colored
+///draw_text_colored(x, y, text, color)
+
+var tX = argument0;
+var tY = argument1;
+var text = argument2;
+var color = argument3;
+
+draw_text_shadow(tX, tY, text, color, c_black,1,fa_center,fa_middle)
