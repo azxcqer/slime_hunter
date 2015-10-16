@@ -77,15 +77,16 @@
       <script>scripts\collision.gml</script>
       <script>scripts\collision_init.gml</script>
     </scripts>
+    <script>scripts\change_view_focus.gml</script>
   </scripts>
   <objects name="objects">
-    <objects name="Classes">
-      <object>objects\cl_moves</object>
-      <object>objects\cl_character</object>
-    </objects>
     <objects name="Controllers">
       <object>objects\ct_main</object>
       <object>objects\ct_init</object>
+    </objects>
+    <objects name="Classes">
+      <object>objects\cl_moves</object>
+      <object>objects\cl_character</object>
     </objects>
     <objects name="Old tests">
       <object>objects\obj_e_test_suicide</object>
