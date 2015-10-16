@@ -54,7 +54,7 @@ global.w1clear = false
 //array of levels i don't know what i'm doing exactly
 
 //how many levels are w1?
-var w1count = global.w1end
+var w1count = global.w1count
 
 /*
 We create a global array with the rooms that are part of w1.
@@ -63,7 +63,7 @@ Because I use it later to check if we're on that specifi room and the clear cond
 This is here to remind me of this or else I'll always forget
 */
 
-while (w1count &lt; global.w1start)
+while (w1count !=0)
 {
     global.w1stages[w1count]=w1count;
     w1count--;

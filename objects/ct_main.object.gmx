@@ -81,7 +81,7 @@ if !background_visible[0] background_visible[0] = true;
             <string>///room cleaner
 //if you're on a stage that belongs to the world  and it is clear, kill the slimes and up the bounce power of the pads
 var o
-for (o=global.w1end; o &lt; global.w1start; o--)
+for (o=global.w1count; o!=0; o--)
 {
     if global.w1stages[o]==room &amp;&amp; global.w1clear
     {
