@@ -1,4 +1,12 @@
 This is the changelog
+# v20151018
+## News
+* Added a disclaimer screen before the game starts
+* Another week of very little visible dev
+
+## Fixes
+* Fixed internal code issues so I could actually start to develop extra screens before the world start.
+
 # v20151011
 ## News
 * This version is heavily underworked because of a busy week and I was travelling! (thi is being commited from the damn hostel)
