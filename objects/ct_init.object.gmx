@@ -31,6 +31,7 @@ global.lastroom = room
 global.exitvsp = 0
 global.cutscene = false
 global.paused = false
+global.curWorld = -1
 
 //player and partner identification
 global.playerid = p_d
@@ -43,32 +44,10 @@ global.bp = global.bpDefault
 
 //worlds variables
 global.w1start = w1_1
-global.w1end = w1_boss
-global.w1count = global.w1end - global.w1start + 1
 global.w2start = w2_1
-global.w2end = w2_boss
-global.w2count = global.w2end - global.w2start + 1
 
 global.w1clear = false
-
-//array of levels i don't know what i'm doing exactly
-
-//how many levels are w1?
-var w1count = global.w1count
-
-/*
-We create a global array with the rooms that are part of w1.
-The important part is not what the array number is, but rather, the number stored inside the array
-Because I use it later to check if we're on that specifi room and the clear condition is met.
-This is here to remind me of this or else I'll always forget
-*/
-
-while (w1count !=0)
-{
-    global.w1stages[w1count]=w1count;
-    w1count--;
-}
-
+global.w2clear = false
 </string>
           </argument>
         </arguments>

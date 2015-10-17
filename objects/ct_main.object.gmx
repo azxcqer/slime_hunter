@@ -60,6 +60,30 @@ if !background_visible[0] background_visible[0] = true;
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///world setter
+
+if room = global.w1start {global.curWorld = 1}
+if room = global.w2start {global.curWorld = 2}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="3" enumb="0">
       <action>
@@ -79,17 +103,14 @@ if !background_visible[0] background_visible[0] = true;
           <argument>
             <kind>1</kind>
             <string>///room cleaner
-//if you're on a stage that belongs to the world  and it is clear, kill the slimes and up the bounce power of the pads
-var o
-for (o=global.w1count; o!=0; o--)
-{
-    if global.w1stages[o]==room &amp;&amp; global.w1clear
+//world cleaner
+if (global.curWorld == 1 and global.w1clear)
+or (global.curWorld == 2 and global.w2clear)
     {
      with (cl_slime) {instance_destroy()};
      with (obj_world_gate) {instance_destroy()};
      global.bp = global.bpClear
     }
-}
 
 //if there is no more slime from said color, destroy it's colored gate
 //green
