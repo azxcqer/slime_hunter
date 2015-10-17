@@ -32,6 +32,7 @@ global.exitvsp = 0
 global.cutscene = false
 global.paused = false
 global.curWorld = -1
+global.gameon = false
 
 //player and partner identification
 global.playerid = p_d

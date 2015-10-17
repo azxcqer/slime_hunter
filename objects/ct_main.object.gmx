@@ -30,6 +30,10 @@ ded=false;
 roomname= noone;
 room_speed=60;
 global.bp = global.bpDefault
+if room=w1_1
+{
+global.gameon=true
+}
 
 if background_index[0] = -1
     {
@@ -141,6 +145,7 @@ if !instance_exists(obj_slime_runner)
             <kind>1</kind>
             <string>///restart if dead
 if !instance_exists(cl_player)
+    and global.gameon
     {
     //alarm[0]=room_speed*3
     ded=true
