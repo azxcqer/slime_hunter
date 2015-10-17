@@ -84,6 +84,7 @@
       <object>objects\ct_main</object>
       <object>objects\ct_init</object>
       <object>objects\ct_disclaimer</object>
+      <object>objects\ct_menu_main</object>
     </objects>
     <objects name="Classes">
       <object>objects\cl_moves</object>
@@ -144,6 +145,7 @@
   <rooms name="rooms">
     <room>rooms\room_splash</room>
     <room>rooms\rm_disclaimer</room>
+    <room>rooms\rm_main_menu</room>
     <rooms name="w1">
       <room>rooms\w1_1</room>
       <room>rooms\w1_2</room>
