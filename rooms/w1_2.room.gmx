@@ -105,7 +105,7 @@
     <instance objName="obj_slime" x="42" y="108" name="inst_04B383C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="player" x="144" y="191" name="inst_D3D5D5A1" locked="0" code="origin = w1_3&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_portal_w1_out" x="24" y="-24" name="inst_8701E9EB" locked="0" code="" scaleX="1.20000004768372" scaleY="1.71428573131561" colour="4294967295" rotation="0"/>
-    <instance objName="obj_portal_w1_in" x="138" y="198" name="inst_3367D318" locked="0" code="" scaleX="0.600000023841858" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_portal_in" x="138" y="198" name="inst_3367D318" locked="0" code="" scaleX="0.600000023841858" scaleY="0.75" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

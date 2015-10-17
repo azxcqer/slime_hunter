@@ -85,7 +85,7 @@
     <instance objName="obj_wall" x="-24" y="90" name="inst_E1091F0D" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="player" x="1" y="98" name="inst_91300937" locked="0" code="origin=w1_5&#xA;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_portal_w1_out" x="114" y="-18" name="inst_6DEC9FE6" locked="0" code="" scaleX="0.600000023841858" scaleY="1.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_portal_w1_in" x="-18" y="90" name="inst_254F3AFD" locked="0" code="" scaleX="0.600000023841858" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_portal_in" x="-18" y="90" name="inst_254F3AFD" locked="0" code="" scaleX="0.600000023841858" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="24" y="78" name="inst_D3B0D0EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

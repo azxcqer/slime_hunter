@@ -117,7 +117,7 @@
     <instance objName="obj_wall" x="252" y="132" name="inst_363E7205" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="252" y="108" name="inst_D7B6B20C" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_portal_w1_out" x="246" y="108" name="inst_1F8E1118" locked="0" code="" scaleX="0.300000011920929" scaleY="2.25" colour="4294967295" rotation="0"/>
-    <instance objName="obj_portal_w1_in" x="246" y="138" name="inst_6B131298" locked="0" code="" scaleX="0.300000011920929" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_portal_in" x="246" y="138" name="inst_6B131298" locked="0" code="" scaleX="0.300000011920929" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_out" x="240" y="146" name="inst_B490A72A" locked="0" code="dir=-1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_in" x="240" y="122" name="inst_E48FE27D" locked="0" code="dir=-1&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="cl_moves" x="960" y="552" name="inst_E76DC782" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

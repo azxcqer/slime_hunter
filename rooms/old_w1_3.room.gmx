@@ -96,7 +96,7 @@
     <instance objName="obj_wall" x="144" y="-24" name="inst_EF1427FD" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="player" x="138" y="132" name="inst_E768072F" locked="0" code="origin=w1_4&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_portal_w1_out" x="144" y="-18" name="inst_C065A450" locked="0" code="" scaleX="0.600000023841858" scaleY="1.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_portal_w1_in" x="132" y="138" name="inst_86853358" locked="0" code="" scaleX="0.600000023841858" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_portal_in" x="132" y="138" name="inst_86853358" locked="0" code="" scaleX="0.600000023841858" scaleY="1.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

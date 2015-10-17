@@ -127,7 +127,7 @@
     <object>objects\cl_lava</object>
     <objects name="tools and etc">
       <object>objects\obj_portal_w1_out</object>
-      <object>objects\obj_portal_w1_in</object>
+      <object>objects\obj_portal_in</object>
       <object>objects\obj_portal</object>
       <object>objects\cl_checker</object>
       <object>objects\obj_w1_check</object>
