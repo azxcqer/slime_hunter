@@ -1,16 +1,21 @@
 This is the changelog
 # v20151018
 ## News
-* Added a disclaimer screen before the game starts
-* Another week of very little visible dev
+* Added a disclaimer screen before the game starts explaining it's state.
+* Updated w2-1.
+* Added pause text so you know when the game is paused.
+* Another week of very little visible dev.
 
 ## Fixes
 * Fixed internal code issues so I could actually start to develop extra screens before the world start.
 
+## Issues
+* Gui size on fullscreen is all gunked up. Prolly because I don't know what the hell I'm doing.
+
 # v20151011
 ## News
 * This version is heavily underworked because of a busy week and I was travelling! (thi is being commited from the damn hostel)
-* Shadow guards! (but then don't actually work like  iwant then to and they're not )
+* Shadow guards! (but then don't actually work like I want then to and they're nowhere to be found)
 * World 2_1 is playable but rather underwhelming
 * Lots of general organization and other little fixes that doen't really impact any of the gameplay.
 * Implesmented warping to the debugg controls (check the readme file)
