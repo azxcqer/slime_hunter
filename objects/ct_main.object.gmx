@@ -30,9 +30,10 @@ ded=false;
 roomname= noone;
 room_speed=60;
 global.bp = global.bpDefault
+
 if room=w1_1
 {
-global.gameon=true
+    global.gameon=true
 }
 
 if background_index[0] = -1
@@ -40,26 +41,6 @@ if background_index[0] = -1
     background_index[0] = bg_temp
     }
 if !background_visible[0] background_visible[0] = true;
-
-//vieeew
-    view_enabled = true;
-    view_visible[0] = true;
-    view_object[0] = cl_player;
-    view_wview[0] = 180;
-    view_hview[0] = 120;
-    view_hborder[0] = view_wview[0] - 75;
-    view_vborder[0] = view_hview[0] - 75;
-
-
-
-/*//vieeew
-    view_enabled = true;
-    view_visible[0] = true;
-    view_object[0] = cl_player;
-    view_hborder[0] = 55;
-    view_vborder[0] = 40;
-    view_wview[0] = 180;
-    view_hview[0] = 96;
 </string>
           </argument>
         </arguments>
@@ -84,6 +65,34 @@ if !background_visible[0] background_visible[0] = true;
 
 if room = global.w1start {global.curWorld = 1}
 if room = global.w2start {global.curWorld = 2}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///view
+    view_enabled = true;
+    view_visible[0] = true;
+    view_object[0] = cl_player;
+    view_wview[0] = 180;
+    view_hview[0] = 120;
+    view_hborder[0] = view_wview[0] - 75;
+    view_vborder[0] = view_hview[0] - 75;
 </string>
           </argument>
         </arguments>
@@ -179,6 +188,9 @@ if ded
           <argument>
             <kind>1</kind>
             <string>///key reactions controls
+//locking these controls outiside of the actual game rooms
+if global.gameon
+{
 //quit
 if keyboard_check_pressed(vk_escape) {game_end()}
 //restart
@@ -208,6 +220,7 @@ if keyboard_check_pressed(ord("X"))
         global.otherid = p_d;
         } else { global.playerid = p_d; global.otherid = p_e;}
     }
+}
 </string>
           </argument>
         </arguments>
@@ -342,10 +355,11 @@ if room=the_end
     var width = window_get_width()
     var message = 
         "THANK YOU FOR PLAYING#
-        #Feedback is much apreciated.
+        #Any kind of feedback is welcome.
         #Contact me on twitter (@Ardydo)
         #or at ardy.aileron@gmail.com
-        ##Press ESC to EXIT"
+        #
+        #Press ESC to EXIT"
 
     draw_text_simple(width/2,height/2, message)
 }
@@ -432,6 +446,13 @@ if global.debugger
 
 if global.paused
 {
+    var message, tX, tY;
+    message =
+        "PAUSED
+        #Press P to continue";
+    tX = window_get_width()/2;
+    tY = window_get_height()/2;
+    draw_text_simple(tX, tY, message)
 }
 </string>
           </argument>
