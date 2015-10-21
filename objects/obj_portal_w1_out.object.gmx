@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>roomtogo=room_previous(room)
+            <string>event_inherited()
+roomtogo=room_previous(room)
 </string>
           </argument>
         </arguments>
