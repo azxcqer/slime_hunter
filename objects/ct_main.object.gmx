@@ -117,8 +117,7 @@ if room = global.w2start {global.curWorld = 2}
             <kind>1</kind>
             <string>///room cleaner
 //world cleaner
-if (global.curWorld == 1 and global.w1clear)
-or (global.curWorld == 2 and global.w2clear)
+if global.worldClear &gt;= global.curWorld
     {
      with (cl_slime) {instance_destroy()};
      with (obj_world_gate) {instance_destroy()};
@@ -247,7 +246,10 @@ if global.debugger
 { 
     if keyboard_check_pressed(ord("K")) {with (cl_slime){instance_destroy()}};
     
-    if keyboard_check_pressed(ord("L")) {global.w1clear = !global.w1clear};
+    if keyboard_check_pressed(ord("L")) 
+    {
+    global.worldClear = 1
+    }
     
     if keyboard_check_pressed(ord("Z"))
         {

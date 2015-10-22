@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>visible = !global.w1clear
+            <string>if global.worldClear &gt;= 1
+    {
+    visible = false
+    }
 </string>
           </argument>
         </arguments>

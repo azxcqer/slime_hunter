@@ -51,7 +51,14 @@ roomtogo=room_previous(room)
             <kind>1</kind>
             <string>event_inherited()
 
-extraCondition = global.w1clear
+if global.worldClear &gt;= 2
+{
+    extraCondition = true
+}
+    else
+        {
+        extraCondition = false
+        }
 </string>
           </argument>
         </arguments>
