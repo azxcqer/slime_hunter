@@ -27,8 +27,10 @@
             <kind>1</kind>
             <string>///init vars
 event_inherited()
-jumpspeed=1.8
+jumpspeed = 2
 dir=1
+normal_jumpspeed = 1.6
+boost_jumpspeed = 1.8
 
 //var to set the room I came from to use in rooms with mutiple doors
 origin=noone 
@@ -87,6 +89,16 @@ if !landed
 
 event_inherited()
 
+//set jumpspeed
+if global.jumpboots = true
+{
+    jumpspeed = boost_jumpspeed
+} 
+    else
+        {
+        jumpspeed = normal_jumpspeed
+        }
+        
 //locking controllers out of custcenes and pause
 if !global.cutscene
 and !global.paused 
