@@ -93,6 +93,9 @@
       <object>objects\cl_enemy</object>
       <object>objects\cl_slime</object>
     </objects>
+    <objects name="Pickups">
+      <object>objects\cl_pickup</object>
+    </objects>
     <objects name="Player">
       <object>objects\obj_player_in</object>
       <object>objects\obj_player_out</object>
