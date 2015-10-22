@@ -30,6 +30,7 @@ ded=false;
 roomname= noone;
 room_speed=60;
 global.bp = global.bpDefault
+restarting = false
 
 if room=w1_1
 {
@@ -193,7 +194,11 @@ if global.gameon
 //quit
 if keyboard_check_pressed(vk_escape) {game_end()}
 //restart
-if keyboard_check_pressed(ord("R")) {room_restart()}
+if keyboard_check_pressed(ord("R")) 
+    {
+    restarting = true
+    room_restart()
+    }
 //debugging
 if keyboard_check_pressed(ord("T")) {global.debugger = !global.debugger}
 //fullscreen
@@ -301,7 +306,10 @@ if global.debugger
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.lastroom=room
+            <string>if !restarting
+{
+    global.lastroom=room
+}
 </string>
           </argument>
         </arguments>
