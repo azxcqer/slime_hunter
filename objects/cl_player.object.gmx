@@ -25,13 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///init var
+            <string>///init vars
 event_inherited()
 jumpspeed=1.8
 dir=1
-origin=noone //var to set the room I came from
 
-if !landed vsp=global.exitvsp
+//var to set the room I came from to use in rooms with mutiple doors
+origin=noone 
+
+//keeping momentum when changing rooms from on the air
+if !landed 
+{
+    vsp = global.exitvsp
+}
 </string>
           </argument>
         </arguments>
@@ -81,9 +87,9 @@ if !landed vsp=global.exitvsp
 
 event_inherited()
 
-
 //locking controllers out of custcenes and pause
-if !global.cutscene &amp;&amp; !global.paused 
+if !global.cutscene
+and !global.paused 
 {
     //Get the player's input
     key_right = keyboard_check(vk_right);
@@ -99,23 +105,6 @@ if landed
 {
     vsp = key_jump * -jumpspeed
 }
-
-/*if landed
-{
-   if keyboard_check(vk_space)
-   {
-   vsp=1*-jumpspeed
-   }
-}
-
-/*
-//short jumping. a tap in space will always make you jump a full block.
-if (!place_meeting(x,y+8,cl_wall))
-    {
-    if !keyboard_check(vk_space) &amp;&amp; vsp&lt;0
-        {vsp=0}
-    }
-
 </string>
           </argument>
         </arguments>
