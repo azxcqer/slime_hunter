@@ -126,6 +126,7 @@ if global.worldClear &gt;= global.curWorld
     }
 
 //if there is no more slime from said color, destroy it's colored gate
+//this is so the custom tar gates get destroyed on the return
 //green
 if !instance_exists(obj_slime)
 {   with (obj_green_gate) instance_destroy() }
