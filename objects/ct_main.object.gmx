@@ -188,7 +188,7 @@ if ded
           <argument>
             <kind>1</kind>
             <string>///key reactions controls
-//locking these controls outiside of the actual game rooms
+//locking these controls outside of the actual game rooms
 if global.gameon
 {
 //quit
@@ -241,7 +241,7 @@ if keyboard_check_pressed(ord("X"))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///debuggind controls
+            <string>///debug controls
 
 if global.debugger
 { 

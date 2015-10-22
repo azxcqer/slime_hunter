@@ -1,5 +1,4 @@
 ///initializing collision variables
-
 grav = 0.08;
 hsp = 0;
 vsp = 0;
