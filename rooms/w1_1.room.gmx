@@ -16,7 +16,7 @@
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
     <isSet>-1</isSet>
-    <w>1017</w>
+    <w>1024</w>
     <h>600</h>
     <showGrid>-1</showGrid>
     <showObjects>-1</showObjects>
@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>2005</xoffset>
-    <yoffset>136</yoffset>
+    <xoffset>1042</xoffset>
+    <yoffset>-161</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -81,7 +81,7 @@
     <instance objName="obj_wall" x="372" y="48" name="inst_4F49E979" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="438" y="18" name="inst_19F155C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="444" y="12" name="inst_BBC7B883" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_world_gate" x="510" y="18" name="inst_BEBD5EC9" locked="0" code="key = global.w1clear&#xA;" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_world_gate" x="510" y="18" name="inst_BEBD5EC9" locked="0" code="" scaleX="4" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="60" y="120" name="inst_B2335538" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="198" y="156" name="inst_BFD246CA" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="102" y="114" name="inst_66C7E8A1" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>

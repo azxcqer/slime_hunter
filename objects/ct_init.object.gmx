@@ -49,8 +49,7 @@ global.bp = global.bpDefault
 global.w1start = w1_1
 global.w2start = w2_1
 
-global.w1clear = false
-global.w2clear = false
+global.worldClear = -1
 </string>
           </argument>
         </arguments>
