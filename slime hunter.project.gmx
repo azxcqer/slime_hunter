@@ -57,6 +57,8 @@
       </sprites>
     </sprites>
     <sprites name="Pickups">
+      <sprite>sprites\sp_boots</sprite>
+      <sprite>sprites\sp_sucker</sprite>
     </sprites>
     <sprites name="Tools">
       <sprite>sprites\sp_portal</sprite>
@@ -103,6 +105,9 @@
     </objects>
     <objects name="Pickups">
       <object>objects\cl_pickup</object>
+      <object>objects\obj_pp_boots</object>
+      <object>objects\obj_pp_sucker</object>
+      <object>objects\obj_pp_sword</object>
     </objects>
     <objects name="Walls">
       <object>objects\obj_wall</object>

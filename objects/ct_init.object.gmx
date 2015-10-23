@@ -35,6 +35,7 @@ global.curWorld = -1
 global.gameon = false
 global.disclaimerSkip = false
 global.jumpboots = false
+global.armed = -1
 
 //player and partner identification
 global.playerid = p_d
