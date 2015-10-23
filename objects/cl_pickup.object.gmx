@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>cl_moves</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///init vars
+event_inherited()
 alarmtimer=1
 </string>
           </argument>
@@ -50,6 +51,7 @@ alarmtimer=1
           <argument>
             <kind>1</kind>
             <string>///pickup basics
+event_inherited()
 
 if place_meeting(x, y, cl_player)
     {
