@@ -32,7 +32,7 @@ room_speed=60;
 global.bp = global.bpDefault
 restarting = false
 
-if room=w1_1
+if room=rm_lodge
 {
     global.gameon=true
 }
@@ -64,6 +64,10 @@ if !background_visible[0] background_visible[0] = true;
             <kind>1</kind>
             <string>///world setter
 
+if room = rm_lodge
+    {
+    global.curWorld = 0
+    }
 if room = global.w1start {global.curWorld = 1}
 if room = global.w2start {global.curWorld = 2}
 </string>

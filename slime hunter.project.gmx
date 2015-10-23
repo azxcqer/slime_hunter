@@ -157,6 +157,9 @@
   <rooms name="rooms">
     <room>rooms\room_splash</room>
     <room>rooms\rm_disclaimer</room>
+    <rooms name="intro">
+      <room>rooms\rm_lodge</room>
+    </rooms>
     <rooms name="w1">
       <room>rooms\w1_1</room>
       <room>rooms\w1_2</room>
