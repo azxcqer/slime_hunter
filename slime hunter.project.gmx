@@ -56,8 +56,6 @@
         </sprites>
       </sprites>
     </sprites>
-    <sprites name="Pickups">
-    </sprites>
     <sprites name="Tools">
       <sprite>sprites\sp_portal</sprite>
       <sprite>sprites\sp_checker</sprite>
