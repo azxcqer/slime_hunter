@@ -159,6 +159,7 @@
     <room>rooms\rm_disclaimer</room>
     <rooms name="intro">
       <room>rooms\rm_lodge</room>
+      <room>rooms\rm_bootcamp</room>
     </rooms>
     <rooms name="w1">
       <room>rooms\w1_1</room>

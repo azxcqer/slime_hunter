@@ -133,6 +133,7 @@ if global.worldClear &gt;= global.curWorld
 //this is so the custom tar gates get destroyed on the return
 //green
 if !instance_exists(obj_slime)
+and room!=rm_bootcamp
 {   with (obj_green_gate) instance_destroy() }
 //purple
 if !instance_exists(obj_slime_runner)
