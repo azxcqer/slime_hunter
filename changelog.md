@@ -1,4 +1,21 @@
 This is the changelog
+# v151025
+## News
+* Changed version names to include only the last two digit of the year... I doubt development will make it to 21XX...
+* Several code cleanup! (wow, how exciting!)
+* Implementing pickups! (not a single one ingame yet, tho)
+* I began working on the INTRO levels! Because this is kinda important!
+* Began working on a new collision engine (but it's trash right now) because I need to be able to change solid states and stuff.
+* None of these changes are ingame yet.
+* THE GREATEST FEATURE YET
+* Gates (or doors, or whaterver you want to call it) can now count! They'll show how many slimes are left to open and can even be customized to open on custom slime amounts! Yay!
+
+##Fixes
+*I acidentally broke the restart key but now I fixed it. Nobody did actually report and I forgot to test it. Opsie.
+
+##Issues
+* STILL CRAP... But someday... who knows! =D
+
 # v20151018
 ## News
 * Added a disclaimer screen before the game starts explaining it's state.
