@@ -78,6 +78,7 @@
     <script>scripts\draw_me_colored.gml</script>
     <script>scripts\who_am_i.gml</script>
     <script>scripts\change_view_focus.gml</script>
+    <script>scripts\look_at_you.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Controllers">
