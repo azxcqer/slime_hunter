@@ -162,6 +162,7 @@ if !instance_exists(cl_player)
    
 if ded
     {
+        restarting = true
         if keyboard_check_pressed(vk_anykey)
         {
             room_restart()
