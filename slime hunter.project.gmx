@@ -125,13 +125,16 @@
       <object>objects\obj_portal_w1_out</object>
       <object>objects\obj_portal_w2_out</object>
     </objects>
+    <objects name="Shadows">
+      <object>objects\obj_other</object>
+      <object>objects\obj_shadow_guard</object>
+    </objects>
     <objects name="Background Props">
       <object>objects\obj_sign_danger</object>
       <object>objects\obj_sign_shadow</object>
       <object>objects\cl_bg</object>
     </objects>
     <object>objects\cl_lava</object>
-    <object>objects\obj_shadow_guard</object>
     <objects name="Classes">
       <object>objects\cl_moves</object>
       <object>objects\cl_character</object>
