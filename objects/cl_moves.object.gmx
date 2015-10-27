@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>///Init vars
 collision_init()
+image_speed = 0
 </string>
           </argument>
         </arguments>
