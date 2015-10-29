@@ -40,6 +40,8 @@ if !landed
 {
     vsp = global.exitvsp
 }
+
+who_am_i()
 </string>
           </argument>
         </arguments>

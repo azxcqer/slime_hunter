@@ -25,21 +25,28 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>visible=false
-timesTrigged=0 //internal var to count the number of times the spawner was activated
-itsOn = false //if the timer is going it will not trigger
+            <string>//initial vars
+visible=false
+//internal var to count the number of times the spawner was activated
+timesTrigged=0
+//if the timer is going it will not trigger
+itsOn = false
 
 //vars needed to be altered in the spawn creation code for it to work
-
-toCheck=noone //instance that will trigger the spawn
-toCreate=noone //instance that will be created
-timesToTrigger=0 //how many times the sapwner will trigger before not triggering anymore
+//instance that will trigger the spawn
+toCheck=noone
+//instance that will be created
+toCreate=noone
+//how many times the sapwner will trigger before not triggering anymore
+timesToTrigger=0
 
 //optional vars. alter those at the cration code to alter the spawned entity
-
-timerTime=0 //if there will be a wait time before it spawns
-createXsize=1 //xscale
-createYsize=1 //yscale
+//if there will be a wait time before it spawns
+timerTime=0
+//created object xscale
+createXsize=1
+//created object yscale
+createYsize=1
 </string>
           </argument>
         </arguments>
