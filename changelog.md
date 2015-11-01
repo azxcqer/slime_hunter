@@ -1,4 +1,17 @@
 This is the changelog
+# v151101
+## News
+* Stuff can follow you with their eyes! Guess what? It's nowhere to be found on the game yet!
+* Other shadowling implementation! That's the one that look at you but it's nowhere to be found as of yet.
+* New program icon!
+* Internal coding improvs!
+
+## Fixes
+* Fixed a bug that made you respawn in the wrong position if you used the respawn key.
+
+## Issues
+* Looking at stuff is still a little buggy and need some fixing.
+
 # v151025
 ## News
 * Changed version names to include only the last two digit of the year... I doubt development will make it to 21XX...
