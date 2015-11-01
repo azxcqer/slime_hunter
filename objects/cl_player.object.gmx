@@ -31,6 +31,8 @@ jumpspeed = 2
 dir=1
 normal_jumpspeed = 1.6
 boost_jumpspeed = 1.8
+kiss_init()
+myLove = obj_other
 
 //var to set the room I came from to use in rooms with mutiple doors
 origin=noone 
@@ -142,6 +144,8 @@ if landed
             <string>///player animations
 
 //falling and going up
+if !imReady
+{
 if !landed
 {
     if y&lt;yprevious {image_index=1};
@@ -159,6 +163,7 @@ if !global.paused
         {sprite_index=sprite_down}
     if keyboard_check(vk_up) &amp;&amp; keyboard_check(vk_down) || !keyboard_check(vk_up) &amp;&amp; !keyboard_check(vk_down)
         {sprite_index=sprite_def}
+}
 }
 </string>
           </argument>
@@ -183,6 +188,29 @@ if !global.paused
             <string>///changing the player sprites
 
 who_am_i()
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///kissing
+kiss_me()
+go_for_it()
 </string>
           </argument>
         </arguments>

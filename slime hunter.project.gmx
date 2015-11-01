@@ -14,15 +14,18 @@
       <sprite>sprites\sp_player</sprite>
       <sprite>sprites\sp_player_up</sprite>
       <sprite>sprites\sp_player_down</sprite>
+      <sprite>sprites\sp_player_enamour</sprite>
       <sprites name="p1">
         <sprite>sprites\sp_p1</sprite>
         <sprite>sprites\sp_p1_up</sprite>
         <sprite>sprites\sp_p1_down</sprite>
+        <sprite>sprites\sp_p1_enamour</sprite>
       </sprites>
       <sprites name="p2">
         <sprite>sprites\sp_p2</sprite>
         <sprite>sprites\sp_p2_up</sprite>
         <sprite>sprites\sp_p2_down</sprite>
+        <sprite>sprites\sp_p2_enamour</sprite>
       </sprites>
     </sprites>
     <sprites name="Walls">
@@ -77,6 +80,9 @@
     <scripts name="collision">
       <script>scripts\collision.gml</script>
       <script>scripts\collision_init.gml</script>
+    </scripts>
+    <scripts name="kissing">
+      <script>scripts\kiss_init.gml</script>
     </scripts>
     <script>scripts\draw_text_shadow.gml</script>
     <script>scripts\draw_me_colored.gml</script>

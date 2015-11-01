@@ -27,8 +27,8 @@
     <deleteUnderlyingObj>0</deleteUnderlyingObj>
     <deleteUnderlyingTiles>-1</deleteUnderlyingTiles>
     <page>0</page>
-    <xoffset>412</xoffset>
-    <yoffset>288</yoffset>
+    <xoffset>-93</xoffset>
+    <yoffset>444</yoffset>
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -138,6 +138,7 @@
     <instance objName="obj_wall" x="138" y="306" name="inst_A8A92F40" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="198" y="306" name="inst_52E58CD6" locked="0" code="" scaleX="35" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="588" y="330" name="inst_29E02515" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="obj_other" x="61" y="176" name="inst_C95D5AC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
