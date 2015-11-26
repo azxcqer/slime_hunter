@@ -52,8 +52,15 @@ timesToTrigger=1 //how many times the sapwner will trigger before not triggering
           <argument>
             <kind>1</kind>
             <string>event_inherited()
-if global.w1clear {instance_destroy()}
-if toggleIt {global.w1clear = !global.w1clear}
+if global.worldClear = 1
+{
+    instance_destroy()
+}
+
+if toggleIt 
+{
+    global.worldClear = 1
+}
 </string>
           </argument>
         </arguments>
@@ -77,7 +84,6 @@ if toggleIt {global.w1clear = !global.w1clear}
           <argument>
             <kind>1</kind>
             <string>event_inherited()
-
 extraCondition = !instance_exists(cl_slime)
 </string>
           </argument>

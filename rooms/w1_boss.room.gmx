@@ -66,7 +66,7 @@
     <instance objName="obj_wall" x="12" y="30" name="inst_7ABA16F6" locked="0" code="" scaleX="1" scaleY="22" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="18" y="156" name="inst_A53B0C83" locked="0" code="" scaleX="49" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ct_main" x="12" y="30" name="inst_36979709" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_purple_gate" x="18" y="114" name="inst_5F4830E4" locked="0" code="" scaleX="40" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_purple_gate" x="18" y="114" name="inst_5F4830E4" locked="0" code="" scaleX="38" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="120" y="60" name="inst_D62E978A" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="150" y="72" name="inst_CA5323D0" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="192" y="78" name="inst_086E6FFE" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
@@ -86,13 +86,14 @@
     <instance objName="obj_wall" x="324" y="-24" name="inst_565E3A9C" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_green_boss" x="131" y="106" name="inst_4C668627" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="54" y="42" name="inst_BEAF0269" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn" x="324" y="18" name="inst_92D1EAA5" locked="0" code="//vars needed to be altered in the spawn creation code for it to work&#xA;&#xA;toCheck=cl_player //instance that will trigger the spawn&#xA;toCreate=obj_green_gate //instance that will be created&#xA;timesToTrigger=1 //how many times the sapwner will trigger before not triggering anymore&#xA;&#xA;//optional vars. alter those at the cration code to alter the spawned entity&#xA;timerTime=0.3&#xA;createXsize=2&#xA;createYsize=2&#xA;" scaleX="0.545454561710358" scaleY="1.20000004768372" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawner" x="324" y="18" name="inst_92D1EAA5" locked="0" code="//vars needed to be altered in the spawn creation code for it to work&#xA;&#xA;toCheck=cl_player //instance that will trigger the spawn&#xA;toCreate=obj_green_gate //instance that will be created&#xA;timesToTrigger=1 //how many times the sapwner will trigger before not triggering anymore&#xA;&#xA;//optional vars. alter those at the cration code to alter the spawned entity&#xA;timerTime=0.3&#xA;createXsize=2&#xA;createYsize=2&#xA;" scaleX="0.545454561710358" scaleY="1.20000004768372" colour="4294967295" rotation="0"/>
     <instance objName="cl_lava" x="12" y="126" name="inst_B568AD39" locked="0" code="" scaleX="47" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="294" y="126" name="inst_6CD52E06" locked="0" code="" scaleX="3" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="obj_w1_check" x="258" y="84" name="inst_3B97ED9B" locked="0" code="" scaleX="4.4210524559021" scaleY="3.33333325386047" colour="4294967295" rotation="0"/>
     <instance objName="obj_portal_w1_out" x="324" y="-18" name="inst_404343B1" locked="0" code="" scaleX="0.600000023841858" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_in" x="327" y="-2" name="inst_FA921DD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign_danger" x="260" y="114" name="inst_E910B95A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-13"/>
+    <instance objName="obj_purple_gate" x="246" y="114" name="inst_318BC9A0" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

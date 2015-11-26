@@ -1,8 +1,51 @@
 This is the changelog
+# v151101
+## News
+* Stuff can follow you with their eyes! Guess what? It's nowhere to be found on the game yet!
+* Other shadowling implementation! That's the one that look at you but it's nowhere to be found as of yet.
+* New program icon!
+* Internal coding improvs!
+
+## Fixes
+* Fixed a bug that made you respawn in the wrong position if you used the respawn key.
+
+## Issues
+* Looking at stuff is still a little buggy and need some fixing.
+
+# v151025
+## News
+* Changed version names to include only the last two digit of the year... I doubt development will make it to 21XX...
+* Several code cleanup! (wow, how exciting!)
+* Implementing pickups! (not a single one ingame yet, tho)
+* I began working on the INTRO levels! Because this is kinda important!
+* Began working on a new collision engine (but it's trash right now) because I need to be able to change solid states and stuff.
+* None of these changes are ingame yet.
+* THE GREATEST FEATURE YET
+* Gates (or doors, or whaterver you want to call it) can now count! They'll show how many slimes are left to open and can even be customized to open on custom slime amounts! Yay!
+
+##Fixes
+*I acidentally broke the restart key but now I fixed it. Nobody did actually report and I forgot to test it. Opsie.
+
+##Issues
+* STILL CRAP... But someday... who knows! =D
+
+# v20151018
+## News
+* Added a disclaimer screen before the game starts explaining it's state.
+* Updated w2-1.
+* Added pause text so you know when the game is paused.
+* Another week of very little visible dev.
+
+## Fixes
+* Fixed internal code issues so I could actually start to develop extra screens before the world start.
+
+## Issues
+* Gui size on fullscreen is all gunked up. Prolly because I don't know what the hell I'm doing.
+
 # v20151011
 ## News
 * This version is heavily underworked because of a busy week and I was travelling! (thi is being commited from the damn hostel)
-* Shadow guards! (but then don't actually work like  iwant then to and they're not )
+* Shadow guards! (but then don't actually work like I want then to and they're nowhere to be found)
 * World 2_1 is playable but rather underwhelming
 * Lots of general organization and other little fixes that doen't really impact any of the gameplay.
 * Implesmented warping to the debugg controls (check the readme file)

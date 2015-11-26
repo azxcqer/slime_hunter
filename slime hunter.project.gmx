@@ -25,24 +25,18 @@
         <sprite>sprites\sp_p2_down</sprite>
       </sprites>
     </sprites>
-    <sprites name="Walls and solids">
+    <sprites name="Walls">
       <sprite>sprites\sp_tl_test</sprite>
       <sprite>sprites\sp_fake_wall</sprite>
       <sprite>sprites\spr_bouncy</sprite>
       <sprite>sprites\sp_glass</sprite>
-      <sprites name="Gates">
-        <sprite>sprites\sp_world_gate</sprite>
-        <sprite>sprites\sp_green_gate</sprite>
-        <sprite>sprites\spr_purple_gate</sprite>
-      </sprites>
+    </sprites>
+    <sprites name="Gates">
+      <sprite>sprites\sp_world_gate</sprite>
+      <sprite>sprites\sp_green_gate</sprite>
+      <sprite>sprites\spr_purple_gate</sprite>
     </sprites>
     <sprites name="Enemies">
-      <sprites name="Bosses">
-        <sprites name="boss1">
-          <sprite>sprites\sp_slime_boss</sprite>
-          <sprite>sprites\sp_slime_boss_run</sprite>
-        </sprites>
-      </sprites>
       <sprites name="Slime">
         <sprite>sprites\sp_slime</sprite>
         <sprite>sprites\sp_slime_run</sprite>
@@ -54,6 +48,12 @@
       <sprites name="Jumper Slime">
         <sprite>sprites\sp_jumper_slime</sprite>
         <sprite>sprites\sp_jumper_slime_run</sprite>
+      </sprites>
+      <sprites name="Bosses">
+        <sprites name="boss1">
+          <sprite>sprites\sp_slime_boss</sprite>
+          <sprite>sprites\sp_slime_boss_run</sprite>
+        </sprites>
       </sprites>
     </sprites>
     <sprites name="Tools">
@@ -70,14 +70,15 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\draw_text_shadow.gml</script>
-    <script>scripts\draw_me_colored.gml</script>
-    <script>scripts\who_am_i.gml</script>
     <scripts name="collision">
       <script>scripts\collision.gml</script>
       <script>scripts\collision_init.gml</script>
     </scripts>
+    <script>scripts\draw_text_shadow.gml</script>
+    <script>scripts\draw_me_colored.gml</script>
+    <script>scripts\who_am_i.gml</script>
     <script>scripts\change_view_focus.gml</script>
+    <script>scripts\look_at_you.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Controllers">
@@ -86,6 +87,55 @@
       <object>objects\ct_disclaimer</object>
       <object>objects\ct_menu_main</object>
     </objects>
+    <objects name="Enemies">
+      <object>objects\obj_slime</object>
+      <object>objects\obj_green_boss</object>
+      <object>objects\obj_slime_runner</object>
+      <object>objects\obj_slime_jumper</object>
+      <object>objects\cl_enemy</object>
+      <object>objects\cl_slime</object>
+    </objects>
+    <objects name="Player">
+      <object>objects\obj_player_in</object>
+      <object>objects\obj_player_out</object>
+      <object>objects\player</object>
+      <object>objects\cl_player</object>
+    </objects>
+    <objects name="Pickups">
+      <object>objects\cl_pickup</object>
+    </objects>
+    <objects name="Walls">
+      <object>objects\obj_wall</object>
+      <object>objects\obj_fake_wall</object>
+      <object>objects\obj_bouncy</object>
+      <object>objects\obj_glass</object>
+      <object>objects\cl_solid</object>
+      <object>objects\cl_wall</object>
+      <object>objects\cl_bounce</object>
+    </objects>
+    <objects name="Gates">
+      <object>objects\obj_green_gate</object>
+      <object>objects\obj_purple_gate</object>
+      <object>objects\obj_world_gate</object>
+      <object>objects\cl_gate</object>
+      <object>objects\cl_world_gate</object>
+    </objects>
+    <objects name="Portals">
+      <object>objects\obj_portal</object>
+      <object>objects\obj_portal_in</object>
+      <object>objects\obj_portal_w1_out</object>
+      <object>objects\obj_portal_w2_out</object>
+    </objects>
+    <objects name="Shadows">
+      <object>objects\obj_other</object>
+      <object>objects\obj_shadow_guard</object>
+    </objects>
+    <objects name="Background Props">
+      <object>objects\obj_sign_danger</object>
+      <object>objects\obj_sign_shadow</object>
+      <object>objects\cl_bg</object>
+    </objects>
+    <object>objects\cl_lava</object>
     <objects name="Classes">
       <object>objects\cl_moves</object>
       <object>objects\cl_character</object>
@@ -95,52 +145,12 @@
       <object>objects\obj_e_test_default</object>
       <object>objects\obj_sprite_test_player</object>
     </objects>
-    <objects name="Enemies">
-      <object>objects\cl_enemy</object>
-      <object>objects\cl_slime</object>
-      <object>objects\obj_slime</object>
-      <object>objects\obj_green_boss</object>
-      <object>objects\obj_slime_runner</object>
-      <object>objects\obj_slime_jumper</object>
-    </objects>
-    <objects name="Player">
-      <object>objects\cl_player</object>
-      <object>objects\obj_player_out</object>
-      <object>objects\obj_player_in</object>
-      <object>objects\player</object>
-    </objects>
-    <objects name="Walls and Solids">
-      <object>objects\cl_solid</object>
-      <object>objects\cl_wall</object>
-      <object>objects\cl_bounce</object>
-      <object>objects\obj_wall</object>
-      <object>objects\obj_fake_wall</object>
-      <object>objects\obj_bouncy</object>
-      <object>objects\obj_glass</object>
-      <objects name="gates">
-        <object>objects\cl_gate</object>
-        <object>objects\cl_world_gate</object>
-        <object>objects\obj_purple_gate</object>
-        <object>objects\obj_world_gate</object>
-        <object>objects\obj_green_gate</object>
-      </objects>
-    </objects>
-    <object>objects\cl_lava</object>
-    <objects name="tools and etc">
-      <object>objects\obj_portal_w1_out</object>
-      <object>objects\obj_portal_w1_in</object>
-      <object>objects\obj_portal</object>
-      <object>objects\cl_checker</object>
+    <objects name="Tools">
+      <object>objects\obj_spawner</object>
       <object>objects\obj_w1_check</object>
+      <object>objects\cl_checker</object>
       <object>objects\obj_w1clear_debug</object>
-      <object>objects\obj_spawn</object>
     </objects>
-    <objects name="Background Props">
-      <object>objects\cl_bg</object>
-      <object>objects\obj_sign_danger</object>
-      <object>objects\obj_sign_shadow</object>
-    </objects>
-    <object>objects\obj_shadow_guard</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_splash</room>

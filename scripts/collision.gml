@@ -1,6 +1,5 @@
 ///collision()
 //because I figured that everybody didn't put the collision code on a script just for funsies
-
 landed=place_meeting(x,y+1,cl_solid) && vsp==0
 if !global.paused
 {
