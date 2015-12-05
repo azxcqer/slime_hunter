@@ -165,6 +165,7 @@
     </rooms>
     <rooms name="w2">
       <room>rooms\w2_1</room>
+      <room>rooms\w2_2</room>
       <room>rooms\w2_boss</room>
     </rooms>
     <room>rooms\the_end</room>
