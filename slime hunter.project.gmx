@@ -177,6 +177,9 @@
       <room>rooms\old_w1_3</room>
       <room>rooms\old_w1_5</room>
     </rooms>
+    <rooms name="other rooms">
+      <room>rooms\rm_def</room>
+    </rooms>
   </rooms>
   <constants number="2">
     <constant name="p_d">1</constant>

@@ -262,8 +262,11 @@ if global.debugger
         {
             if room_exists(room+1)
             {
+                if (room+1) != rm_def
+                {
             global.lastroom=room
             room_goto_next()
+                }
             }
                         
             /*if keyboard_check(vk_shift) &amp;&amp; !global.lastroom=room_splash 
