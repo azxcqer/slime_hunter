@@ -179,6 +179,7 @@
     </rooms>
     <rooms name="other rooms">
       <room>rooms\rm_def</room>
+      <room>rooms\rm_test</room>
     </rooms>
   </rooms>
   <constants number="2">

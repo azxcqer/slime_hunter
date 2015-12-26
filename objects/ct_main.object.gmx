@@ -33,6 +33,7 @@ global.bp = global.bpDefault
 restarting = false
 
 if room=w1_1
+or room=rm_test
 {
     global.gameon=true
 }
