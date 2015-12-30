@@ -33,8 +33,8 @@ global.cutscene = false
 global.paused = false
 global.curWorld = -1
 global.gameon = false
-global.disclaimerSkip = true
-global.testing = true
+global.disclaimerSkip = false
+global.testing = false
 
 //player and partner identification
 global.playerid = p_d
