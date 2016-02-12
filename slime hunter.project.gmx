@@ -37,23 +37,24 @@
       <sprite>sprites\spr_purple_gate</sprite>
     </sprites>
     <sprites name="Enemies">
-      <sprites name="Slime">
-        <sprite>sprites\sp_slime</sprite>
-        <sprite>sprites\sp_slime_run</sprite>
-      </sprites>
-      <sprites name="Runner Slime">
-        <sprite>sprites\sp_runner_slime_run</sprite>
-        <sprite>sprites\sp_runner_slime</sprite>
-      </sprites>
-      <sprites name="Jumper Slime">
-        <sprite>sprites\sp_jumper_slime</sprite>
-        <sprite>sprites\sp_jumper_slime_run</sprite>
-      </sprites>
       <sprites name="Bosses">
         <sprites name="boss1">
           <sprite>sprites\sp_slime_boss</sprite>
           <sprite>sprites\sp_slime_boss_run</sprite>
         </sprites>
+      </sprites>
+      <sprites name="Slime">
+        <sprite>sprites\sp_slime</sprite>
+        <sprite>sprites\sp_slime_run</sprite>
+      </sprites>
+      <sprites name="Runner">
+        <sprite>sprites\sp_runner_slime_run</sprite>
+        <sprite>sprites\sp_runner_slime</sprite>
+      </sprites>
+      <sprites name="Jumper">
+        <sprite>sprites\sp_jumper_slime</sprite>
+        <sprite>sprites\sp_jumper_slime_run</sprite>
+      </sprites>
       </sprites>
     </sprites>
     <sprites name="Tools">
@@ -84,6 +85,10 @@
       <object>objects\ct_main</object>
       <object>objects\ct_init</object>
       <object>objects\ct_disclaimer</object>
+    </objects>
+    <objects name="Classes">
+      <object>objects\cl_moves</object>
+      <object>objects\cl_character</object>
     </objects>
     <objects name="Enemies">
       <object>objects\obj_slime</object>
@@ -134,10 +139,6 @@
       <object>objects\cl_bg</object>
     </objects>
     <object>objects\cl_lava</object>
-    <objects name="Classes">
-      <object>objects\cl_moves</object>
-      <object>objects\cl_character</object>
-    </objects>
     <objects name="Old tests">
       <object>objects\obj_e_test_suicide</object>
       <object>objects\obj_e_test_default</object>
