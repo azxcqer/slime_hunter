@@ -1,6 +1,5 @@
 #define draw_text_shadow
 ///draw_text_shadow(x, y, text, textcolor, shadowcolor, shadowdist, halign, valign)
-
 var oldColor = draw_get_color();
 
 var tX, tY, text, tColor, sColor, sDist, halign, valign;

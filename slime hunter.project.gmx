@@ -73,12 +73,16 @@
     <scripts name="collision">
       <script>scripts\collision.gml</script>
     </scripts>
-    <script>scripts\draw_text_shadow.gml</script>
-    <script>scripts\draw_me_colored.gml</script>
-    <script>scripts\who_am_i.gml</script>
-    <script>scripts\change_view_focus.gml</script>
-    <script>scripts\look_at_you.gml</script>
-    <script>scripts\turnapalooza.gml</script>
+    <scripts name="tools">
+      <script>scripts\draw_text_shadow.gml</script>
+      <script>scripts\change_view_focus.gml</script>
+    </scripts>
+    <scripts name="animation">
+      <script>scripts\draw_me_colored.gml</script>
+      <script>scripts\look_at_you.gml</script>
+      <script>scripts\turnapalooza.gml</script>
+      <script>scripts\who_am_i.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="Controllers">
