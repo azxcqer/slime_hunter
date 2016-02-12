@@ -55,7 +55,6 @@
         <sprite>sprites\sp_jumper_slime</sprite>
         <sprite>sprites\sp_jumper_slime_run</sprite>
       </sprites>
-      </sprites>
     </sprites>
     <sprites name="Tools">
       <sprite>sprites\sp_portal</sprite>
