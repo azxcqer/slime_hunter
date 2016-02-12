@@ -1,3 +1,4 @@
+#define collision
 ///collision()
 //because I figured that everybody didn't put the collision code on a script just for funsies
 landed=place_meeting(x,y+1,cl_solid) && vsp==0
@@ -50,3 +51,13 @@ if   bbox_bottom > room_height //|| bbox_top < room_height || bbox_left < room_w
 {
     instance_destroy()
 }
+
+#define collision_init
+///initializing collision variables
+grav = 0.08;
+hsp = 0;
+vsp = 0;
+jumpspeed = 1.5;
+movespeed = 1;
+dir=-1
+landed=false
