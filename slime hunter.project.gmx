@@ -55,6 +55,9 @@
         <sprite>sprites\sp_jumper_slime</sprite>
         <sprite>sprites\sp_jumper_slime_run</sprite>
       </sprites>
+      <sprites name="Rock">
+        <sprite>sprites\sp_slime_rock</sprite>
+        <sprite>sprites\sp_slime_rock_run</sprite>
       </sprites>
     </sprites>
     <sprites name="Tools">
@@ -97,6 +100,7 @@
       <object>objects\obj_slime_jumper</object>
       <object>objects\cl_enemy</object>
       <object>objects\cl_slime</object>
+      <object>objects\o_enemy_rock</object>
     </objects>
     <objects name="Player">
       <object>objects\obj_player_in</object>
