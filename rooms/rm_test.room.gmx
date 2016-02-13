@@ -66,10 +66,10 @@
     <instance objName="obj_wall" x="114" y="90" name="inst_D638EA0A" locked="0" code="" scaleX="13" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="102" y="102" name="inst_41A0E23D" locked="0" code="" scaleX="15" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="90" y="114" name="inst_644E8382" locked="0" code="" scaleX="17" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="o_enemy_rock" x="98" y="50" name="inst_530EA7B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_enemy_rock" x="57" y="122" name="inst_BC76D0FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_enemy_rock" x="95" y="110" name="inst_F034DA30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_enemy_rock" x="166" y="38" name="inst_91AA0D3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="98" y="50" name="inst_530EA7B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="57" y="122" name="inst_BC76D0FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="95" y="110" name="inst_F034DA30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="166" y="38" name="inst_91AA0D3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bouncy" x="24" y="90" name="inst_55D48824" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bouncy" x="24" y="60" name="inst_3FC0D180" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
