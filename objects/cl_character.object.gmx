@@ -57,31 +57,8 @@ sprite_run = sprite_index
           <argument>
             <kind>1</kind>
             <string>///generic animation sprite transformation
-
 event_inherited()
-
-if dir == -1 //going left
-{
-    image_xscale=-1;
-}
-if dir == 1 //going right
-{
-    image_xscale=+1;
-}
-
-/*
-//if landed
-//{
-    //if !hsp=0
-    //{image_index=1}
-    if hsp==0 &amp;&amp; vsp==0
-    {
-    image_speed=0
-    image_index=0
-    }
-//}
-
-*/
+turnapalooza()
 </string>
           </argument>
         </arguments>

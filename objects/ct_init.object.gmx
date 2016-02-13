@@ -33,7 +33,11 @@ global.cutscene = false
 global.paused = false
 global.curWorld = -1
 global.gameon = false
+
+//Debuging and testing vars
+//Set to false on release
 global.disclaimerSkip = false
+global.testing = false
 
 //player and partner identification
 global.playerid = p_d
@@ -93,7 +97,14 @@ window_set_cursor(cr_none)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto_next()
+            <string>if global.testing
+{
+    room_goto(rm_test)
+}
+else
+{
+    room_goto_next()
+}
 </string>
           </argument>
         </arguments>
